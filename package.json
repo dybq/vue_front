@@ -12,6 +12,11 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "vue-axios": "^3.2.4",
+    "element-ui": "^2.15.0",
+    "element-table": "^2.2.2",
+    "axios": "^0.21.1",
+    "vue-router": "^3.5.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
