@@ -3,7 +3,7 @@ import App from './App.vue'
 import ElementUI from 'element-ui';
 import axios from "axios";
 import VueAxios from 'vue-axios'
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'http://134.209.163.18:5000'
 // axios.defaults.headers.get["Content-type"]="application/json";
 axios.interceptors.request.use(
     config => {
