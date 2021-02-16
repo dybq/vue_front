@@ -45,7 +45,7 @@ export default {
   methods: {
     getlist() {
       let _this = this
-      axios.get('http://localhost:5000/api/getdata').then(response => {
+      axios.get('/api/getdata').then(response => {
         _this.tableData = response.data
       })
     }
